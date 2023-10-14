@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zadanie1.WidokInstrukcji">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="40"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label HorizontalOptions="Center" Margin="0,0,0,30" Text="Instruction" />
+        <Label Text="Click on adjacent buttons to change their values ​​in places." />
+        <Label Text="If the values ​​are arranged from 1 to 9, you win." />
+    </VerticalStackLayout>
+</ContentPage>
